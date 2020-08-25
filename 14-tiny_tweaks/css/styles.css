@@ -18,9 +18,22 @@ body {
 img {
     max-width: 100%;
 }
+@media(min-width:992px) {
+    img {
+        max-width: 900px;
+        display: block;
+        margin: auto;
+    }
+}
 
 h1 {
     font-size: 4rem;
+}
+@media(min-width:992px) {
+    h1 {
+        font-size: 6rem;
+        text-align: center;
+    }
 }
 
 h2 {

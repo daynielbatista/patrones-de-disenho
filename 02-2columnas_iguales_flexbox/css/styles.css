@@ -38,6 +38,13 @@ h1 {
     text-transform: uppercase;
 }
 
-.dos-columnas {
-    display: flex;
+@media (min-width:480px) {
+    .dos-columnas {
+        display: flex;
+        justify-content: space-between;
+    }
+    .entrada-blog {
+        flex-basis: calc(50% - 1rem);
+        /*Esto es como el width*/
+    }
 }

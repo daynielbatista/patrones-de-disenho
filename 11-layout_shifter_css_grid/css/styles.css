@@ -46,3 +46,8 @@ p {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.layout-shifter {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}

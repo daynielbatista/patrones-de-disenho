@@ -76,7 +76,7 @@ p {
     }
     aside {
         order: 2;
-        flex: 0 0 calc(33.3% -2rem);
+        flex: 0 0 calc(33.3% - 2rem);
         padding-left: 3rem;/*Temporal. No es lo ideal*/
     }
 }
